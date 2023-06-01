@@ -27,5 +27,5 @@ const postnewNotionItemsToSlack: Handler = async () => {
 	};
 };
 
-// export const handler = schedule('0 9 * * 1', postnewNotionItemsToSlack);
-export const handler = schedule('* * * * *', postnewNotionItemsToSlack);
+export const handler = schedule('0 9 * * 1', postnewNotionItemsToSlack);
+// export const handler = schedule('* * * * *', postnewNotionItemsToSlack);
